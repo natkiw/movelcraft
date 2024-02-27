@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  font-family: Jomhuria;
+}
+
+/* inicio header */
+
+header{
+  display: flex; /* direção padrão row (um na frete do outro) */
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  background-color: #D9D9D9;
+  padding: 35px 0px 35px 30px;
+}
+
+#logo {
+  display: flex;
+}
+
+#logo > span:nth-child(1){
+  font-size: 80px;
+  color: #1501FF;
+}
+
+#logo > span:nth-child(2){
+  font-size: 80px;
+  color: #F00;
+}
+
+#lista {
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;  
+}
+/* header > nav > ul {
+  display: flex;
+} */
+
+#lista > li {
+  list-style: none;
+  font-size: 50px;
+  color: #1501FF;
+}
+
+/* final header */
+
+/* inicio main */
+
+main > section{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+#box-voltar{
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 20px;
+}
+
+#box-voltar > a {
+  font-size: 50px;
+}
+
+#box-login{
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+}
+
+#box-login > div {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 20px 20px 20px -15px #000000;
+  border-radius: 15px;
+  padding: 20px;
+  height: 200px;
+  justify-content: center;
+}
+
+#box-login > div > h1{
+  font-size: 60px;
+}
+
+.input-login{
+  padding: 6px 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+form > fieldset{
+  display: flex;
+  flex-direction: column;
+  border: none;
+}
+
+button{
+  padding: 6px 20px;
+  background-color: #1501FF;
+  color: white;
+}
